@@ -26,6 +26,9 @@ class Cleanmymac < Formula
     <<~EOS
       Heavy pruners (docker, xcode) start disabled. Opt in with the wizard
       (`cleanmymac configure`) or `cleanmymac enable docker`.
+
+      Not affiliated with MacPaw. MacPaw's cleanmymac-cli cask links the same
+      bin/cleanmymac — the two cannot be brew-linked side by side.
     EOS
   end
 
