@@ -10,8 +10,8 @@ class Cleanmymac < Formula
   # The uploaded release asset — the exact file SHA256SUMS describes. Not the
   # auto-generated /archive/ tarball, whose bytes GitHub does not guarantee
   # stable (the Jan 2023 archive-checksum breakage).
-  url "https://github.com/aviral2552/cleanmymac/releases/download/v2.0.0/cleanmymac-2.0.0.tar.gz"
-  sha256 "ad2b2b924501eebd0660d29350110caa837ecc6097eb302bf6aaf527247ec541"
+  url "https://github.com/aviral2552/cleanmymac/releases/download/v2.0.1/cleanmymac-2.0.1.tar.gz"
+  sha256 "e6a00caab15e299fd2a72b37f5a6ecc9933a3acd248147b4eab30f19f5894558"
   license "GPL-3.0-only"
 
   depends_on :macos
